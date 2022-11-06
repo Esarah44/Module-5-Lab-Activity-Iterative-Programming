@@ -6,7 +6,9 @@
 answer = int(input("Enter a number (positive integer):"))
 if answer >= 0:
     print(answer," Hello World!")
-elif answer < 0:
-    print("Error: Enter positive integer only")
-
+#use else statement for the range of less than zero
+#elif answer < 0:
+#    print("Error: Enter positive integer only")
+else:
+    print("Error")
 
